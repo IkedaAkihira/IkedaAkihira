@@ -1,2 +1,6 @@
-I'm interested in creating games and web services,so I'm learning how to do that.
-You can see me on [Twitter](https://twitter.com/IkedaAkihira) and [Qiita](https://qiita.com/IkedaAkihira) too.
+Hello. I'm Ikeda Akihira.
+# links
+* [Twitter](https://twitter.com/IkedaAkihira)
+* [Qiita](https://qiita.com/IkedaAkihira)
+* [AtCoder](https://atcoder.jp/users/IkedaAkihira)
+* [YouTube](https://www.youtube.com/channel/UCYelN3VfU8xutHcyTguaorg)
