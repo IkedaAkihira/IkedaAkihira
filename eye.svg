@@ -20,14 +20,15 @@
             </style>
         </div>
     </foreignObject>
-    <g filter="url(#filter)">
-        <use href="#eye"
-        fill="#fff" stroke="#000" stroke-width="20"/>
+    <g filter="url(#filter)"
+    fill="none" stroke="#000000"
+    stroke-width="20">
+        <use href="#eye"/>
 
 
         <circle clip-path="url(#eye-clip)"
         class="pupil" cx="200" cy="200" r="65"
-        fill="#fff" stroke="#000" stroke-width="20"/>
+        />
     </g>
 
     <defs>
