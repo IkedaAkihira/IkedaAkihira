@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 400 400" width="400" height="400"
+>
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                @keyframes pupil-move{
+                    0%{
+                        cx:160;
+                    }
+                    
+                    100%{
+                        cx:240;
+                    }
+                }
+
+                .pupil{
+                    animation: pupil-move ease-in-out 1s infinite alternate;
+                }
+            </style>
+        </div>
+    </foreignObject>
+    <g filter="url(#filter)">
+        <use href="#eye"
+        fill="#fff" stroke="#000" stroke-width="20"/>
+
+
+        <circle clip-path="url(#eye-clip)"
+        class="pupil" cx="200" cy="200" r="65"
+        fill="#fff" stroke="#000" stroke-width="20"/>
+    </g>
+
+    <defs>
+        <path id="eye"
+        d="M 10,200
+        C 30,180 100,125 200,125
+        300,125 370,180 390,200
+        370,220 300,275 200,275
+        100,275 30,220 10,200Z"/>
+
+        <clipPath id="eye-clip">
+            <use href="#eye"/>
+        </clipPath>
+
+        <filter id="filter">
+            <feTurbulence type="fractalNoise"
+            numOctaves="3" baseFrequency="0.1"/>
+            <feDisplacementMap in="SourceGraphic"
+            scale="10"/>
+        </filter>
+    </defs>
+</svg>
