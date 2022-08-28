@@ -1,4 +1,7 @@
-![](./eye.svg)
+<div align="center">
+    <img src="./eye.svg" style="width:20%;"/>
+</div>
+
 # 自己紹介
 池田明平です。
 # リンク

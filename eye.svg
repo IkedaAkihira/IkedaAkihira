@@ -15,7 +15,7 @@
                 }
 
                 .pupil{
-                    animation: pupil-move ease-in-out 1s infinite alternate;
+                    animation: pupil-move ease-in-out 1.5s infinite alternate;
                 }
             </style>
         </div>
