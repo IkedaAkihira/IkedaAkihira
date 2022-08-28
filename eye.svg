@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 400 400" width="400" height="400"
+    viewBox="0 0 400 200" width="400" height="200"
 >
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
@@ -27,17 +27,17 @@
 
 
         <circle clip-path="url(#eye-clip)"
-        class="pupil" cx="200" cy="200" r="65"
+        class="pupil" cx="200" cy="100" r="65"
         />
     </g>
 
     <defs>
         <path id="eye"
-        d="M 10,200
-        C 30,180 100,125 200,125
-        300,125 370,180 390,200
-        370,220 300,275 200,275
-        100,275 30,220 10,200Z"/>
+        d="M 10,100
+        C 30,080 100,25 200,25
+        300,25 370,80 390,100
+        370,120 300,175 200,175
+        100,175 30,120 10,100Z"/>
 
         <clipPath id="eye-clip">
             <use href="#eye"/>
