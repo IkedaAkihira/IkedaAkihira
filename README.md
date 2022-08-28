@@ -1,4 +1,6 @@
-![](./main-eye.svg)
+<div align="center">
+    <img src="./main-eye.svg" style="width:100%"/>
+</div>
 
 # <img src="./r-eye-0.svg" style="height:20px; display:inline"/>自己紹介
 
