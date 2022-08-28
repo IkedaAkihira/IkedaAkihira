@@ -1,3 +1,5 @@
+![](./main-eye.svg)
+
 # <img src="./r-eye-0.svg" style="height:20px; display:inline"/>自己紹介
 
 池田明平です。

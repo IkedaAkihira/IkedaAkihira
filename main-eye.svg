@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 400 200" width="400" height="200"
+>
+    <g filter="url(#filter)"
+    fill="none" stroke="#000000"
+    stroke-width="20">
+        <use href="#eye"/>
+
+
+        <circle clip-path="url(#eye-clip)"
+        class="pupil" cx="200" cy="100" r="0">
+        <animate attributeName="r" from="0" to="65" begin="1s" dur="0.25s"
+        fill="freeze"></animate>
+        </circle>
+    </g>
+
+    <defs>
+        <path id="eye"
+        d="M 10,100
+            C 10,100 10,100 200,100
+            390,100 390,100 390,100
+            390,100 390,100 200,100
+            10,100 10,100 10,100
+              ">
+              <animate attributeName="d"
+              from="M 10,100
+        C 30,100 100,100 200,100
+        300,100 370,100 390,100
+        370,100 300,100 200,100
+        100,100 30,100 10,100Z
+        "
+              to="M 10,100
+        C 30,080 100,25 200,25
+        300,25 370,80 390,100
+        370,120 300,175 200,175
+        100,175 30,120 10,100Z
+              " dur="0.25s" repeatCount="1" fill="freeze"/>
+        </path>
+
+        <clipPath id="eye-clip">
+            <use href="#eye"/>
+        </clipPath>
+
+        <filter id="filter">
+            <feTurbulence type="fractalNoise"
+            numOctaves="3" baseFrequency="0.1"/>
+            <feDisplacementMap in="SourceGraphic"
+            scale="10"/>
+        </filter>
+    </defs>
+</svg>
