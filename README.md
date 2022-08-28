@@ -1,10 +1,9 @@
-<div align="center">
-    <img src="./eye.svg" style="width:20%;"/>
-</div>
+# <img src="./eye.svg" style="height:20px; display:inline"/>自己紹介
 
-# 自己紹介
 池田明平です。
-# リンク
+
+
+# <img src="./eye.svg" style="height:20px; display:inline"/>リンク
 * [Twitter](https://twitter.com/IkedaAkihira)
 * [Qiita](https://qiita.com/IkedaAkihira)
 * [AtCoder](https://atcoder.jp/users/IkedaAkihira)
