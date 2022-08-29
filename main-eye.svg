@@ -12,7 +12,14 @@
         <animate attributeName="r" from="0" to="65" begin="1s" dur="0.25s"
         fill="freeze"></animate>
         </circle>
+        <text stroke="none" fill="#902238" font-size="50"
+        alignment-baseline="middle"
+        text-anchor="middle"
+        clip-path="url(#linear-appear-clip)"
+        x="200" y="100">Ikeda Akihira</text>
     </g>
+
+    
 
     <defs>
         <path id="eye"
@@ -47,5 +54,13 @@
             <feDisplacementMap in="SourceGraphic"
             scale="10"/>
         </filter>
+
+        <clipPath id="linear-appear-clip">
+            <rect width="0" height="200">
+                <animate attributeName="width"
+                from="0" to="400" dur="0.2" fill="freeze"
+                begin="2"/>
+            </rect>
+        </clipPath>
     </defs>
 </svg>
