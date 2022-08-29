@@ -58,7 +58,7 @@
         <clipPath id="linear-appear-clip">
             <rect width="0" height="200">
                 <animate attributeName="width"
-                from="0" to="400" dur="0.2" fill="freeze"
+                from="0" to="400" dur="1.2" fill="freeze"
                 begin="2"/>
             </rect>
         </clipPath>
