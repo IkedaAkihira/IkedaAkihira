@@ -7,7 +7,7 @@
         <use href="#eye"/>
 
 
-        <circle clip-path="url(#eye-clip)"
+        <circle fill="url(#pupil-light-gradient)" clip-path="url(#eye-clip)"
         class="pupil" cx="200" cy="100" r="0">
         <animate attributeName="r" from="0" to="65" begin="1s" dur="0.25s"
         fill="freeze"></animate>
@@ -62,5 +62,12 @@
                 begin="2"/>
             </rect>
         </clipPath>
+
+        <radialGradient id="pupil-light-gradient" r="0">
+            <stop stop-color="#ff0000" offset="0%"/>
+            <stop stop-color="#ff000000" offset="100%"/>
+            <animate attributeName="r" values="0;0;0.5;0.5;0;" keyTimes="0;0.98;0.985;0.99;1" 
+            repeatCount="indefinite" dur="10" fill=""/>
+        </radialGradient>
     </defs>
 </svg>
