@@ -30,18 +30,28 @@
             10,100 10,100 10,100
               ">
               <animate attributeName="d"
-              from="M 10,100
+              values="M 10,100
         C 30,100 100,100 200,100
         300,100 370,100 390,100
         370,100 300,100 200,100
-        100,100 30,100 10,100Z
-        "
-              to="M 10,100
+        100,100 30,100 10,100Z;
+        M 10,100
         C 30,080 100,25 200,25
         300,25 370,80 390,100
         370,120 300,175 200,175
-        100,175 30,120 10,100Z
-              " dur="0.25s" repeatCount="1" fill="freeze"/>
+        100,175 30,120 10,100Z;
+        M 10,100
+        C 30,080 100,25 200,25
+        300,25 370,80 390,100
+        370,120 300,175 200,175
+        100,175 30,120 10,100Z;
+        M 10,100
+        C 30,100 100,100 200,100
+        300,100 370,100 390,100
+        370,100 300,100 200,100
+        100,100 30,100 10,100Z;
+              " dur="10s" repeatCount="indefinite"
+              keyTimes="0;0.02;0.98;1"/>
         </path>
 
         <clipPath id="eye-clip">
@@ -62,12 +72,5 @@
                 begin="2"/>
             </rect>
         </clipPath>
-
-        <radialGradient id="pupil-light-gradient" r="0">
-            <stop stop-color="#ff0000" offset="0%"/>
-            <stop stop-color="#ff000000" offset="100%"/>
-            <animate attributeName="r" values="0;0;0.5;0.5;0;" keyTimes="0;0.98;0.985;0.99;1" 
-            repeatCount="indefinite" dur="10" fill=""/>
-        </radialGradient>
     </defs>
 </svg>
