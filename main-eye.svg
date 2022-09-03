@@ -2,9 +2,10 @@
     viewBox="0 0 400 200" width="400" height="200"
 >
     <g filter="url(#filter)"
+    clip-path="url(#linear-appear-clip)"
     fill="none" stroke="#b0b020"
     stroke-width="20">
-        <use href="#eye" clip-path="url(#linear-appear-clip)"/>
+        <use href="#eye"/>
 
 
         <circle fill="url(#pupil-light-gradient)" clip-path="url(#eye-clip)"
@@ -15,7 +16,6 @@
         <text stroke="none" fill="#902238" font-size="50"
         alignment-baseline="middle"
         text-anchor="middle"
-        clip-path="url(#linear-appear-clip)"
         x="200" y="100">Ikeda Akihira</text>
     </g>
 

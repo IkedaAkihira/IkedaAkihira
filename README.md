@@ -1,8 +1,7 @@
-<div align="center">
-    <img src="./main-eye.svg" style="width:80%"/>
-</div>
+# ![](./main-eye.svg)
 
-# <img src="./r-eye-0.svg" style="height:20px; display:inline"/>自己紹介
+
+## ![](./introduction.svg)
 
 池田明平です。
 
