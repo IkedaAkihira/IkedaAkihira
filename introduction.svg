@@ -67,7 +67,6 @@
     clip-path="url(#linear-appear-clip)"
     fill="none" stroke="#b0b020"
     stroke-width="20">
-        <use href="#eye"/>
 
 
         <g clip-path="url(#eye-clip)">
@@ -91,6 +90,8 @@
                 Bio</text>
             </g>
         </g>
+        <use href="#eye"/>
+
     </g>
 
     <defs>
