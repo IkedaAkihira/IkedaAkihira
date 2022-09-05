@@ -68,19 +68,7 @@
     fill="none" stroke="#b0b020"
     stroke-width="20">
 
-<path d="M0,400 C60,350 0,250 -30,200" stroke="#534741" stroke-width="3" fill="none" marker-end="url(#boxcat)" marker-start="url(#leafs)">
-          <!-- パスのアニメーション -->
-          <animate attributeName="d" begin="0s" values="
-              M0,400 C60,350 0,250 -30,200;
-              M0,400 C-30,350 30,300 0,250;
-              M0,400 C0,350 0,250 30,200;
-              M0,400 C30,350 -30,200 0,150;
-              M0,400 C60,350 0,250 -30,200" repeatCount="indefinite" dur="1.5s" calcMode="spline" fill="freeze" keyTimes="0;0.25;0.5;0.75;1" keySplines="
-              0.0 0.5 0.5 1.0;
-              0.5 0.0 1.0 0.5;
-              0.0 0.5 0.5 1.0;
-              0.5 0.0 1.0 0.5"></animate>
-        </path>
+
         <g clip-path="url(#eye-clip)">
             <g class="pupil">
                 <circle fill="url(#pupil-light-gradient)" clip-path="url(#eye-clip)"
@@ -103,6 +91,7 @@
             </g>
         </g>
         <use href="#eye"/>
+        <use href="#test"/>
 
     </g>
 
@@ -159,5 +148,19 @@
                 begin="0"/>
             </rect>
         </clipPath>
+
+        <path id="test" d="M0,400 C60,350 0,250 -30,200" stroke="#534741" stroke-width="3" fill="none" marker-end="url(#boxcat)" marker-start="url(#leafs)">
+          <!-- パスのアニメーション -->
+          <animate attributeName="d" begin="0s" values="
+              M0,400 C60,350 0,250 -30,200;
+              M0,400 C-30,350 30,300 0,250;
+              M0,400 C0,350 0,250 30,200;
+              M0,400 C30,350 -30,200 0,150;
+              M0,400 C60,350 0,250 -30,200" repeatCount="indefinite" dur="1.5s" calcMode="spline" fill="freeze" keyTimes="0;0.25;0.5;0.75;1" keySplines="
+              0.0 0.5 0.5 1.0;
+              0.5 0.0 1.0 0.5;
+              0.0 0.5 0.5 1.0;
+              0.5 0.0 1.0 0.5"></animate>
+        </path>
     </defs>
 </svg>
