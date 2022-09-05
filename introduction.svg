@@ -126,7 +126,7 @@
               " dur="10s" repeatCount="indefinite"
               keyTimes="0;0.02;0.98;1" begin="2.2s"
               fill="freeze" calcMode="spline"
-              keySplines="0 0 1 1;0 0 1 1;0 0 1 1;"/>
+              keySplines="0 0 1 1;0 0 1 1;0 0 1 1;"></animate>
         </path>
 
         <clipPath id="eye-clip">
