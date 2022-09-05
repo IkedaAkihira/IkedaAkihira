@@ -124,7 +124,7 @@
         370,100 300,100 200,100
         100,100 30,100 10,100Z;
               " dur="10s" repeatCount="indefinite"
-              keyTimes="0;0.02;0.98;1" begin="2.2"/>
+              keyTimes="0;0.02;0.98;1" begin="2.2s"/>
         </path>
 
         <clipPath id="eye-clip">
