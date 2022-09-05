@@ -1,5 +1,6 @@
 # ![Introduction](./introduction.svg)
-池田明平です。
+Hello!! I'm Ikeda Akihira.  
+I like JS.
 # ![Links](./links.svg)
 * [Twitter](https://twitter.com/IkedaAkihira)
 * [Qiita](https://qiita.com/IkedaAkihira)
