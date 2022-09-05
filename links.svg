@@ -6,58 +6,58 @@
             <style>
                 @keyframes pupil-move{
                     0%{
-                        transform:translate(0%);
+                        transform:translateY(0%);
                     }
                     
                     25%{
-                        transform:translate(12%);
+                        transform:translateY(18%);
                     }
 
                     50%{
-                        transform:translate(0%);
+                        transform:translateY(0%);
                         
                     }
 
                     75%{
-                        transform:translate(-12%);
+                        transform:translateY(-18%);
                         
                     }
                     100%{
-                        transform:translate(0%);
+                        transform:translateY(0%);
                         
                     }
                 }
-                @keyframes bio-move{
+                @keyframes links-move{
                     0%{
-                        transform:translate(0%);
+                        transform:translateY(0%);
                     }
                     
                     25%{
-                        transform:translate(2%);
+                        transform:translateY(3%);
                     }
 
                     50%{
-                        transform:translate(0%);
+                        transform:translateY(0%);
                         
                     }
 
                     75%{
-                        transform:translate(-2%);
+                        transform:translateY(-3%);
                         
                     }
                     100%{
-                        transform:translate(0%);
+                        transform:translateY(0%);
                         
                     }
                 }
 
                 .pupil{
-                    animation: pupil-move cubic-bezier(1,0,0,1) 13s infinite;
+                    animation: pupil-move cubic-bezier(1,0,0,1) 8s infinite;
                     animation-delay:5.2s
                 }
 
-                .bio{
-                    animation: bio-move cubic-bezier(1,0,0,1) 13s infinite;
+                .links{
+                    animation: links-move cubic-bezier(1,0,0,1) 8s infinite;
                     animation-delay:5.2s
                 }
             </style>
@@ -67,7 +67,6 @@
     clip-path="url(#linear-appear-clip)"
     fill="none" stroke="#b0b020"
     stroke-width="20">
-        <use href="#eye"/>
 
 
         <g clip-path="url(#eye-clip)">
@@ -80,7 +79,7 @@
                 <text stroke="none" fill="#90223800" font-size="50"
                 alignment-baseline="middle"
                 text-anchor="middle"
-                class="bio"
+                class="links"
                 
                 x="200" y="100">
                 
@@ -88,9 +87,11 @@
                     to="#902238ff" begin="4.2s" dur="1s"
                     fill="freeze"></animate>
                 
-                Bio</text>
+                Links</text>
             </g>
         </g>
+        <use href="#eye"/>
+
     </g>
 
     <defs>

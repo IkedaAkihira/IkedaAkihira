@@ -1,12 +1,12 @@
-# ![](./main-eye.svg)
+# ![IkedaAkihira](./main-eye.svg)
 
 
-## ![](./introduction.svg)
+## ![Introduction](./introduction.svg)
 
 池田明平です。
 
 
-# <img src="./h-eye-0.svg" style="height:20px; display:inline"/>リンク
+## ![Links](./links.svg)
 * [Twitter](https://twitter.com/IkedaAkihira)
 * [Qiita](https://qiita.com/IkedaAkihira)
 * [AtCoder](https://atcoder.jp/users/IkedaAkihira)
