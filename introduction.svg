@@ -92,6 +92,7 @@
         </g>
         <use href="#eye"/>
         <use href="#test"/>
+        <use href="#test2"/>
 
     </g>
 
@@ -149,7 +150,7 @@
             </rect>
         </clipPath>
 
-        <path id="test" d="M0,400 C60,350 0,250 -30,200" stroke="#534741" stroke-width="3" fill="none" marker-end="url(#boxcat)" marker-start="url(#leafs)">
+        <path id="test" d="M 10,100 C 30,100 100,100 200,100 300,100 370,100 390,100 370,100 300,100 200,100 100,100 30,100 10,100Z" stroke="#534741" stroke-width="3" fill="none">
           <!-- パスのアニメーション -->
             <animate attributeName="d" begin="0s" values="
             M 10,100 C 30,100 100,100 200,100 300,100 370,100 390,100 370,100 300,100 200,100 100,100 30,100 10,100Z;
@@ -159,6 +160,9 @@
               0.0 0.5 0.5 1.0;
               0.5 0.0 1.0 0.5;
               0.0 0.5 0.5 1.0;"></animate>
+        </path>
+        <path id="test2" d="M 10,100 C 30,100 100,100 200,100 300,100 370,100 390,100 370,100 300,100 200,100 100,100 30,100 10,100Z" stroke="#534741" stroke-width="3" fill="none">
+          <!-- パスのアニメーション -->
         </path>
     </defs>
 </svg>
