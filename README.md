@@ -1,7 +1,7 @@
-# ![Introduction](./introduction.svg)
+# Bio
 Hello!! I'm Ikeda Akihira.  
-I like JS.
-# ![Links](./links.svg)
+I like JavaScript.
+# Links
 * [Twitter](https://twitter.com/IkedaAkihira)
 * [Qiita](https://qiita.com/IkedaAkihira)
 * [AtCoder](https://atcoder.jp/users/IkedaAkihira)
