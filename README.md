@@ -7,6 +7,3 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ikedaakihira&show_icons=true)
 
 ![eye](h-eye-0.svg)
-![eye](r-eye-0.svg)
-![eye](v-eye-0.svg)
-![eye](h-eye-1.svg)
