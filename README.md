@@ -5,6 +5,8 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ikedaakihira&layout=compact)](https://github.com/anuraghazra/github-readme-stats)  
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ikedaakihira&show_icons=true)
-# Bio
-Hello!! I'm Ikeda Akihira.  
-I like JavaScript.
+
+![eye](h-eye-0.svg)
+![eye](r-eye-0.svg)
+![eye](v-eye-0.svg)
+![eye](h-eye-1.svg)
